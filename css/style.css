@@ -1,63 +1,63 @@
 /* Google Font CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-color: #131731;
-    /* background-image: url(../images/website-banner.jpg); */
+body {
+  background-color: #131731;
+  /* background-image: url(../images/website-banner.jpg); */
 }
 
 .title {
-    font-family: "Archivo Black", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    padding: 2px 10px;
-    color: #4a9820;
+  font-family: "Archivo Black", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 2px 10px;
+  color: #4a9820;
 }
 
 .nav-link {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 16px;
-    font-weight: 700;
-    font-style: normal;
-    color: #b10000;
-    margin-left: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: #b10000;
+  margin-left: 5px;
 }
 
 .navbar {
-    background-color: #ffffff;
-    border-bottom: 3px solid #b10000;
+  background-color: #ffffff;
+  border-bottom: 3px solid #b10000;
 }
 
 .nav-link:hover,
 .navbar-nav .nav-item .active:hover {
-    color: #ffffff;
-    background-color: #b10000;
-    border-radius: 10px;
+  color: #ffffff;
+  background-color: #b10000;
+  border-radius: 10px;
 }
 
 .main-body {
-    height: 1000px;
-    margin: auto;
+  height: 1000px;
+  margin: auto;
 }
 
 /* Banner */
 .banner {
-    padding-top: 95px;
-    border: 1px solid #b10000;
+  padding-top: 95px;
+  border: 1px solid #b10000;
 }
 
 /* About US */
-.about-us{
-    margin-top: 20px;
-    background: #c4fcf9;
-    height: 100px;
+.about-us {
+  margin-top: 20px;
+  background: #c4fcf9;
+  height: 100px;
 }
