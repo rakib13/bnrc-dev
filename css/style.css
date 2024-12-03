@@ -98,6 +98,10 @@ body {
 	text-shadow: 2px 2px #3c617a;
 }
 
+.bg-common ul li{
+	text-align: left;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -122,6 +126,13 @@ body {
 /* About US */
 
 .about-us {
+	margin-top: 120px;
+	margin-bottom: 10px;
+}
+
+/* Gallery */
+
+.comittee{
 	margin-top: 120px;
 	margin-bottom: 10px;
 }

@@ -9,12 +9,8 @@ body {
   font-family: "Raleway", sans-serif;
   background: #fff;
 }
-br {
-  width: 95vw;
-  margin: 0 auto;
-}
 img {
-  weight: 100px;
+  min-height: 100px;
   height: 100px;
 }
 /** main ***/
