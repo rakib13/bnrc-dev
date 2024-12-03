@@ -4,130 +4,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-    background-color: #131731;
+	background-color: #131731;
 }
 
 .title {
-    font-family: "Archivo Black", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    padding: 2px 10px;
-    color: #4a9820;
+	font-family: "Archivo Black", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	padding: 2px 10px;
+	color: #4a9820;
 }
 
 .nav-link {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 16px;
-    font-weight: 700;
-    font-style: normal;
-    color: #b10000;
-    margin-left: 5px;
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	color: #b10000;
+	margin-left: 5px;
 }
 
 .navbar {
-    background-color: #ffffff;
-    border-bottom: 3px solid #b10000;
+	background-color: #ffffff;
+	border-bottom: 3px solid #b10000;
 }
 
 .nav-link:hover,
 .navbar-nav .nav-item .active:hover {
-    color: #ffffff;
-    background-color: #b10000;
-    border-radius: 10px;  
+	color: #ffffff;
+	background-color: #b10000;
+	border-radius: 10px;
 }
 
 .main-body {
-    margin: auto;
+	height: 1000px;
+	margin: auto;
 }
 
 /* Banner */
 .banner {
-    display: flex;
-    padding-top: 95px;
-    flex-direction: row;
-    vertical-align: auto;
-    border: 1px solid #b10000;
-
-    background: url(../images/banner-bnrc.jpg) no-repeat center center fixed;
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    height: 1000px;
-    overflow: hidden;
+	display: flex;
+	padding-top: 95px;
+	flex-direction: row;
+	vertical-align: auto;
+	border: 1px solid #b10000;
+	background: url(../images/banner-bnrc.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 60%;
+	overflow: hidden;
 }
 
 .banner .h1{
-    color: #b10000;
-    font-size: 4rem;
-    font-weight: 900;
-    padding: 4rem;
+	color: #b10000;
+	font-size: 4rem;
+	font-weight: 900;
+	padding: 4rem;
 }
 
 .banner-footer{
-    margin-top: -60px;
-    padding-bottom: 15px;
+	margin-top: -60px;
 }
 
 .banner-footer .h2{
-    color: #b10000;
-    font-weight: 500;
-    text-align: center;
+	color: #b10000;
+	font-weight: 500;
+	text-align: center;
 }
 
 /* Intro */
 
 .div-main{
-    margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 .bg-common{
-    margin-bottom: 2rem;
-    background: linear-gradient(110deg, #c0fbf7, #fbffff);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+	margin-bottom: 2rem;
+	background: linear-gradient(110deg, #c0fbf7, #fbffff);
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
 }
 
-.bg-common .h2{
-    color: #131731;
-    text-shadow: 2px 2px #3c617a;
+.bg-common .h1, .h2{
+	color: #131731;
+	text-shadow: 2px 2px #3c617a;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1.5rem;
   }
-  
+ 
   .card {
-    background: linear-gradient(150deg, #3c617a 0%, #437292 100%); 
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 8px 8px #3c617a;
+	background: linear-gradient(150deg, #3c617a 0%, #437292 100%);
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 8px 8px #3c617a;
   }
 
   .text-seperator{
-    width: 100%;
-    border-bottom: 2px solid #14242e;
-    box-shadow: 1px 1px 5px #9ac7ff;
-    margin-top: 2px;
-    margin-bottom: 1rem;
+	width: 100%;
+	border-bottom: 2px solid #14242e;
+	box-shadow: 1px 1px 5px #9ac7ff;
+	margin-top: 2px;
+	margin-bottom: 1rem;
   }
 
 /* About US */
+
 .about-us {
-    margin-top: 20px;
-    background: #c4fcf9;
-    height: 100px;
+	margin-top: 120px;
+	margin-bottom: 10px;
 }
