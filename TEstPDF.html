@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="./css/publicationstyle.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/1.jpg" alt="Sample Image 1">
+            <a href="#" data-pdf="https://publuu.com/flip-book/755212/1675270" class="pdf-link">View PDF</a>
+        </div>
+        <div class="grid-item">
+            <img src="images/2.jpg" alt="Sample Image 2">
+            <a href="#" data-pdf="https://publuu.com/flip-book/755212/1675274" class="pdf-link">Open Report</a>
+        </div>
+        <div class="grid-item">
+            <img src="images/3.jpg" alt="Sample Image 3">
+            <a href="#" data-pdf="https://publuu.com/flip-book/755212/1675275" class="pdf-link">Read More</a>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="pdf-modal">
+        <div class="modal-content">
+            <span class="modal-close" id="close-modal">&times;</span>
+            <iframe src="" id="pdf-frame"></iframe>
+        </div>
+    </div>
+
+    <script src="./css/publicationscript.js"></script>
+</body>
+
+</html>
