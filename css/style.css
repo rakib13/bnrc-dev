@@ -50,15 +50,16 @@ body {
 
 /* Banner */
 .banner {
-  display: flex;
+  padding-top: 95px;
+  /* display: flex;
   padding-top: 95px;
   flex-direction: row;
   vertical-align: auto;
   border: 1px solid #b10000;
-  background: url(../images/banner-bnrc.jpg) no-repeat center center fixed;
+  background: url(../images/banner-bnrc.png) no-repeat center center fixed;
   background-size: cover;
-  height: 60%;
-  overflow: hidden;
+  height: 65%;
+  overflow: hidden; */
 }
 
 .banner .h1 {
