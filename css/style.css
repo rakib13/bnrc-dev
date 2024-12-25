@@ -49,9 +49,16 @@ body {
 }
 
 /* Banner */
-.banner {
-  padding-top: 95px;
-  /* display: flex;
+@media only screen and (max-width: 480px) {
+  .banner {
+    padding-top: 135px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .banner {
+    padding-top: 95px;
+    /* display: flex;
   padding-top: 95px;
   flex-direction: row;
   vertical-align: auto;
@@ -60,6 +67,7 @@ body {
   background-size: cover;
   height: 65%;
   overflow: hidden; */
+  }
 }
 
 .banner .h1 {
