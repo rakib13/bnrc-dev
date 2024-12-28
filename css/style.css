@@ -157,6 +157,21 @@ body {
   }
 }
 
+/* Contact US */
+
+@media only screen and (max-width: 480px) {
+  .contact-us {
+    margin-top: 145px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .contact-us {
+    margin-top: 110px;
+    margin-bottom: 10px;
+  }
+}
 
 /****** footer *****/
 .footer {
