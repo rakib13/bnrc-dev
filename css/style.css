@@ -51,13 +51,15 @@ body {
 /* Banner */
 @media only screen and (max-width: 480px) {
   .banner {
-    padding-top: 125px;
+    padding-top: 140px;
+    border-radius: 5px;
   }
 }
 
 @media only screen and (min-width: 481px) {
   .banner {
-    padding-top: 95px;
+    padding-top: 100px;
+    border-radius: 5px;
   }
 }
 
@@ -65,7 +67,7 @@ body {
   color: #b10000;
   font-size: 4rem;
   font-weight: 900;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .banner-footer {
@@ -85,9 +87,9 @@ body {
 }
 
 .bg-common {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   background: linear-gradient(110deg, #c0fbf7, #fbffff);
-  padding: 2rem;
+  padding: 1.25rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -126,17 +128,35 @@ body {
 
 /* About US */
 
-.about-us {
-  margin-top: 120px;
-  margin-bottom: 10px;
+@media only screen and (max-width: 480px) {
+  .about-us {
+    margin-top: 145px;
+    margin-bottom: 10px;
+  }
 }
 
-/* Gallery */
-
-.comittee {
-  margin-top: 120px;
-  margin-bottom: 10px;
+@media only screen and (min-width: 481px) {
+  .about-us {
+    margin-top: 120px;
+    margin-bottom: 10px;
+  }
 }
+
+/* NEWS & Eventsa */
+@media only screen and (max-width: 480px) {
+  .news-events {
+    margin-top: 145px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .news-events {
+    margin-top: 120px;
+    margin-bottom: 10px;
+  }
+}
+
 
 /****** footer *****/
 .footer {
