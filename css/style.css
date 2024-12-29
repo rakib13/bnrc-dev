@@ -173,6 +173,12 @@ body {
   }
 }
 
+.contact-grid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /****** footer *****/
 .footer {
   display: grid;
