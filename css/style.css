@@ -51,14 +51,22 @@ body {
 /* Banner */
 @media only screen and (max-width: 480px) {
   .banner {
-    padding-top: 140px;
+    padding-top: 135px;
+  }
+
+  .banner>img {
+    border: 3px solid red;
     border-radius: 5px;
   }
 }
 
 @media only screen and (min-width: 481px) {
   .banner {
-    padding-top: 100px;
+    padding-top: 95px;
+  }
+
+  .banner>img {
+    border: 3px solid red;
     border-radius: 5px;
   }
 }
@@ -173,10 +181,14 @@ body {
   }
 }
 
-.contact-grid{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.0rem;
+}
+
+.contact-grid-card {
+  padding: 0.5rem;
 }
 
 /****** footer *****/
