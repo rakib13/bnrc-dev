@@ -70,9 +70,9 @@
   font-weight: bold;
 }
 
-///// load videos in gallery
+/* ///// load videos in gallery */
 
-* {
+/* * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
@@ -86,8 +86,8 @@
 
 body {
   background-color: #dc143c22;
-}
-.container {
+} */
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
@@ -197,4 +197,4 @@ video {
   padding-left: 0;
 
   position: relative;
-}
+} */

@@ -144,6 +144,15 @@ p {
   box-shadow: 0 8px 8px #3c617a;
 }
 
+.grid div:hover{
+  background: #00ffff;
+  transform: translateY(-10px);
+}
+.grid div{
+  transition: background 0.5s, transform 0.5s;
+
+}
+
 .text-seperator {
   width: 100%;
   border-bottom: 2px solid #14242e;
