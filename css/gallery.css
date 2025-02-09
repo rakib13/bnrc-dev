@@ -1,23 +1,23 @@
-.container {
+.bg-common {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
   padding: 25px 20px;
 }
 
-.container .heading {
+.h2 {
   font-size: 40px;
   margin-bottom: 20px;
   color: #334;
 }
 
-.container .box-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
 }
 
-.container .box-container .box {
+.box {
   background-color: #fff;
   padding: 0px;
   border-radius: 5px;
@@ -25,13 +25,13 @@
   display: none;
 }
 
-.container .box-container .box:nth-child(1),
-.container .box-container .box:nth-child(2),
-.container .box-container .box:nth-child(3) {
+.bg-common .grid-container .box:nth-child(1),
+.bg-common .grid-container .box:nth-child(2),
+.bg-common .grid-container .box:nth-child(3) {
   display: inline-block;
 }
 
-.container .box-container .box .image {
+.bg-common .grid-container .box .image {
   margin-bottom: 20px;
   overflow: hidden;
   height: 250px;
@@ -43,7 +43,7 @@
     width: 100%;
     object-fit: cover;
   } */
-.container .box-container .box .image iframe {
+.bg-common .grid-container .box .image iframe {
   width: 100%;
   height: 100%;
   border: none;
@@ -62,15 +62,15 @@
     color: #334;
   } */
 
-.container .box-container .box .content p {
-  font-size: 15px;
+.bg-common .grid-container .box .content p {
+  font-size: bold;
   text-align: justify;
   color: #777;
   line-height: 2;
   padding: 15px 0;
 }
 
-.container .box-container .box .content .btn {
+.bg-common .grid-container .box .content .btn {
   display: inline-block;
   padding: 10px 30px;
   border: 1px solid #334;
@@ -78,13 +78,13 @@
   font-size: 16px;
 }
 
-.container .box-container .box .content .btn:hover {
+.bg-common .grid-container .box .content .btn:hover {
   background-color: crimson;
   border-color: crimson;
   color: #fff;
 }
 
-.container .box-container .box .content .icons {
+.bg-common .grid-container .box .content .icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,28 +93,31 @@
   border-top: 1px solid #334;
 }
 
-.container .box-container .box .content .icons span {
+.bg-common .grid-container .box .content .icons span {
   font-size: 14px;
   color: #777;
 }
 
-.container .box-container .box .content .icons span i {
+.bg-common .grid-container .box .content .icons span i {
   color: crimson;
   padding-right: 5px;
 }
 
 #load-more {
-  margin-top: 20px;
-  display: inline-block;
-  padding: 13px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Center */
+  padding: 10px 20px;
   border: 1px solid #334;
   color: #334;
   font-size: 16px;
   background-color: #fff;
   cursor: pointer;
+  width: fit-content; /* Prevent stretching */
 }
 
-#load-more:hover {
+#load-more: hover {
   background-color: crimson;
   border-color: crimson;
   color: #fff;
@@ -129,23 +132,23 @@ video {
 }
 
 @media (max-width: 450px) {
-  .container .heading {
+  .bg-common .h2 {
     font-size: 25px;
   }
 
-  .container .box-container {
+  .bg-common .grid-container {
     grid-template-columns: 1fr;
   }
 
-  .container .box-container .box .image {
+  .bg-common .grid-container .box .image {
     height: 200px;
   }
 
-  .container .box-container .box .content p {
+  .bg-common .grid-container .box .content p {
     font-size: 12px;
   }
 
-  .container .box-container .box .content .icons span {
+  .bg-common .grid-container .box .content .icons span {
     font-size: 12px;
   }
 }
