@@ -13,8 +13,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  justify-content: center;
 }
 
 .box {
@@ -103,25 +105,37 @@
   padding-right: 5px;
 }
 
-#load-more {
+ #load-more {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto; /* Center */
-  padding: 10px 20px;
+   margin: 20px auto;  /* Center */
+   padding: 10px 20px;
   border: 1px solid #334;
   color: #334;
   font-size: 16px;
   background-color: #fff;
   cursor: pointer;
   width: fit-content; /* Prevent stretching */
+ }  
+
+
+
+
+/* #load-more:hover {
+  background-color: rgb(16, 228, 79);
+  border-color: rgb(13, 226, 13);
+  color: #fff;
+} */
+
+
+#load-more:hover {
+  background-color: rgb(16, 228, 79);
+  border-color: rgb(13, 226, 13);
+  color: #fff;
+  transform: scale(1.05);
 }
 
-#load-more: hover {
-  background-color: crimson;
-  border-color: crimson;
-  color: #fff;
-}
 video {
   width: 100%;
   border: 2px solid #ccc;
@@ -130,6 +144,19 @@ video {
 
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 item per row on small screens */
+  }
+}
+
 
 @media (max-width: 450px) {
   .bg-common .h2 {
