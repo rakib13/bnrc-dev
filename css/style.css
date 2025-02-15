@@ -11,7 +11,7 @@
 }
 
 body {
-  //background-color: #131731;
+  background-color: #131731;
   background: url(../images/bg1.png) repeat fixed 0 0 #fff;
 }
 
@@ -147,7 +147,8 @@ p {
 
 .grid div:hover {
   background: #00ffff;
-  transform: translateY(-10px);
+  /* transform: translateY(-10px); */
+  transform: scale(1.05);
 }
 
 .grid div {
@@ -274,5 +275,5 @@ p {
 }
 
 .social-icons a:hover {
-  color: #fff;
+  color: #130d0d;
 }
