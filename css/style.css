@@ -33,7 +33,6 @@ body {
   font-weight: 700;
   font-style: normal;
   color: #b10000;
-  margin-left: 5px;
 }
 
 .navbar {
@@ -46,6 +45,10 @@ body {
   color: #ffffff;
   background-color: #b10000;
   border-radius: 10px;
+}
+
+.nav-item a img{
+  margin-top: 10px;
 }
 
 .main-body {
