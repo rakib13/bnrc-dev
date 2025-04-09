@@ -67,8 +67,33 @@ body {
 }
 
 .navbar {
+  
   background-color: #ffffff;
   border-bottom: 3px solid #b10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+.left-image{
+  max-width: 100px;
+  height: 100%;
+  bottom: 0;
+}
+
+.right-image {
+  max-width: 100px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* height: 100%; */
+  width: auto; 
+}
+
+.container {
+  flex-grow: 1;
+  padding: 0 20px;
 }
 
 .nav-link:hover,
