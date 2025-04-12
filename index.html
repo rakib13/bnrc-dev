@@ -18,6 +18,11 @@
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/stylehome.css">
+	<script>
+		function closeForm() {
+			document.getElementById("popupOverlay").style.display = "none";
+		}
+	</script>
 </head>
 
 <body>
@@ -100,6 +105,17 @@
 			<img src="./images/banner-bnrc.png" class="img-fluid" alt="Banner BNRC">
 		</div>
 
+		<!-- top page -->
+		<div class="popup-overlay" id="popupOverlay">
+			<div class="popup" id="popup">
+				<span class="close" id="closePopup" onclick="closeForm()">&times;</span>
+				<div class="popup-content">
+					<img width="100%" src="./images/Leaflet_page.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- End Top Page -->
+
 		<main class="div-main">
 			<!-- Content after banner -->
 			<section class="bg-common">
@@ -124,21 +140,24 @@
 
 				<div class="grid">
 					<div class="card">
-						<img src="https://api.bnpbd.org/api/upload/images/our-leader-215252-ff2f.jpg" alt="Leader-1">
+						<img src="https://api.bnpbd.org/api/upload/images/our-leader-215252-ff2f.jpg"
+							alt="Shaheed President Ziaur Rahman">
 						<p class="h5 text-center">Shaheed President Ziaur Rahman</p>
 						<div class="text-seperator"></div>
 						<p>Lieutenant General Ziaur Rahman Bir Uttam (1936-1981) was the founder of Bangladesh
 							Nationalist Party.</p>
 					</div>
 					<div class="card">
-						<img src="https://api.bnpbd.org/api/upload/images/our-leader-215252-1--f7f6.jpg" alt="Leader-2">
+						<img src="https://api.bnpbd.org/api/upload/images/our-leader-215252-1--f7f6.jpg"
+							alt="Chairperson Begum Khaleda Zia">
 						<p class="h5 text-center">Chairperson Begum Khaleda Zia</p>
 						<div class="text-seperator"></div>
 						<p>Begum Khaleda Zia (Born: 15 August 1946) is the chairperson of the Bangladesh Nationalist
 							Party-BNP who served as the Prime Minister of Bangladesh three times since 1991.</p>
 					</div>
 					<div class="card">
-						<img src="https://api.bnpbd.org/api/upload/images/our-leader-215252-2--66c6.jpg" alt="Leader-3">
+						<img src="https://api.bnpbd.org/api/upload/images/our-leader-215252-2--66c6.jpg"
+							alt="Acting Chairman Tarique Rahman">
 						<p class="h5 text-center">Acting Chairman Tarique Rahman</p>
 						<div class="text-seperator"></div>
 						<p>Tarique Rahman (Born: 20 November 1967) is the Acting Chairman of the Bangladesh Nationalist
