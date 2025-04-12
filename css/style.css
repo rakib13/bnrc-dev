@@ -19,27 +19,81 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff; /* Background color of the preloader */
+  background: #fff;
+  /* Background color of the preloader */
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Ensure it's on top of everything */
+  z-index: 9999;
+  /* Ensure it's on top of everything */
 }
 
 #preloader .logo img {
-  width: auto; /* Adjust the size of your logo */
-  animation: fadeIn 2s ease-in-out; /* Simple fade-in animation */
+  width: auto;
+  /* Adjust the size of your logo */
+  animation: fadeIn 2s ease-in-out;
+  /* Simple fade-in animation */
 }
 
 @keyframes fadeIn {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
+
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
+
 /* END Preloader style */
+
+/* pop up */
+
+/* style.css */
+.popup-overlay {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Add a dark background */
+  z-index: 1;
+  /* Ensure it's on top of other elements */
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the popup */
+  width: 350px;
+  /* Set the desired width */
+  padding: 10px;
+  background-color: white;
+  /* Or your preferred color */
+  border: 1px solid #ccc;
+  /* Add a border */
+  border-radius: 5px;
+  /* Round the corners */
+}
+
+.popup-content {
+  /* Style your popup content here */
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+}
+
+/* Ene pop up */
 
 body {
   background-color: #131731;
@@ -67,7 +121,7 @@ body {
 }
 
 .navbar {
-  
+
   background-color: #ffffff;
   border-bottom: 3px solid #b10000;
   display: flex;
@@ -77,7 +131,7 @@ body {
 
 
 
-.left-image{
+.left-image {
   max-width: 100px;
   height: 100%;
   bottom: 0;
@@ -88,7 +142,7 @@ body {
   /* position: absolute; */
   /* bottom: 0; */
   /* height: 100%; */
-  width: auto; 
+  width: auto;
 }
 
 .container {
@@ -103,7 +157,7 @@ body {
   border-radius: 10px;
 }
 
-.nav-item a img{
+.nav-item a img {
   margin-top: 10px;
 }
 
@@ -129,7 +183,7 @@ body {
     padding-top: 135px;
   }
 
-  .banner > img {
+  .banner>img {
     border: 3px solid red;
     border-radius: 5px;
   }
@@ -140,7 +194,7 @@ body {
     padding-top: 95px;
   }
 
-  .banner > img {
+  .banner>img {
     border: 3px solid red;
     border-radius: 5px;
   }
@@ -170,7 +224,7 @@ body {
   margin-top: 2rem;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -193,9 +247,11 @@ body {
 .bg-common ul li {
   text-align: left;
 }
+
 p {
   text-align: justify;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -209,7 +265,7 @@ p {
   box-shadow: 0 8px 8px #3c617a;
 }
 
-.grid .card img{
+.grid .card img {
   padding: -1.5rem;
   margin-bottom: 0.5rem;
 }
